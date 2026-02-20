@@ -90,7 +90,7 @@ These measures dynamically update based on slicer selections.
 
 # Dashboard Features
 
-<img width="1639" height="668" alt="Customer Retention And Churn Analysis" src="https://github.com/user-attachments/assets/92d7c0ce-2c19-464b-a3cc-76fc286d4db4" />
+<img width="1438" height="684" alt="Marketing Funnel   Conversion Performance" src="https://github.com/user-attachments/assets/beb258ee-9695-4cf4-bb8f-4504feaef935" />
 
 
 ### Key KPIs
