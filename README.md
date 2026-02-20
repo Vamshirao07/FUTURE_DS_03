@@ -5,78 +5,126 @@ Marketing analytics plays a crucial role in evaluating campaign effectiveness an
 This project focuses on building an interactive Power BI dashboard to analyze marketing funnel performance and provide actionable insights.
 # Problem Statement
 ### Marketing teams often face challenges in:
-Measuring conversion performance effectively
-Identifying high-performing customer segments
-Understanding the impact of contact methods
-Optimizing campaign frequency
+
+Measuring conversion performance effectively.
+
+Identifying high-performing customer segments.
+
+Understanding the impact of contact methods.
+
+Optimizing campaign frequency.
+
 Without proper visualization and analysis tools, decision-making becomes inefficient.
 
 # Project Objectives
 
-To calculate total customers and total conversions,
-To compute and monitor conversion rate,
-To analyze conversions by job category,
-To evaluate performance by month,
-To study impact of contact type,
+To calculate total customers and total conversions.
+
+To compute and monitor conversion rate.
+
+To analyze conversions by job category.
+
+To evaluate performance by month.
+
+To study impact of contact type.
+
 To assess customer response based on education and marital status.
 
 # Tools & Technologies Used
 
 ### Microsoft Power BI
 
-Power Query (Data Cleaning),
-Data Modeling,
-DAX Calculations,
-Interactive Visualizations,
-Slicers & Filters,
+Power Query (Data Cleaning).
+
+Data Modeling.
+
+DAX Calculations.
+
+Interactive Visualizations.
+
+Slicers & Filters.
+
 Dataset: Marketing Campaign Data.
 
 # Dataset Description
 
+https://github.com/Vamshirao07/FUTURE_DS_03/blob/main/bank-full.csv
+
 ### The dataset contains customer marketing campaign details including:
 
-Job Category,
-Marital Status,
-Education Level,
-Contact Method (Cellular/Telephone/Unknown),
-Campaign Attempts,
-Month of Contact,
+Job Category.
+
+Marital Status.
+
+Education Level.
+
+Contact Method (Cellular/Telephone/Unknown).
+
+Campaign Attempts.
+
+Month of Contact.
+
 Conversion Status (Yes/No).
 
 # Data Modeling & DAX
 
-Data Cleaning (Power Query),
-Removed duplicates,
-Handled missing values,
-Standardized categorical fields,
-Ensured correct data types,
-DAX Measures Created,
-Total Customers = COUNTROWS(Table),
-Total Conversions = CALCULATE(COUNT(Table[Conversion]), Table[Conversion] = "Yes"),
-Conversion Rate = DIVIDE([Total Conversions], [Total Customers]),
+Data Cleaning (Power Query).
+
+Removed duplicates.
+
+Handled missing values.
+
+Standardized categorical fields.
+
+Ensured correct data types.
+
+DAX Measures Created.
+
+Total Customers = COUNTROWS(Table).
+
+Total Conversions = CALCULATE(COUNT(Table[Conversion]), Table[Conversion] = "Yes").
+
+Conversion Rate = DIVIDE([Total Conversions], [Total Customers]).
+
 These measures dynamically update based on slicer selections.
 
 # Dashboard Features
 
+<img width="1639" height="668" alt="Customer Retention And Churn Analysis" src="https://github.com/user-attachments/assets/92d7c0ce-2c19-464b-a3cc-76fc286d4db4" />
+
+
 ### Key KPIs
 
-Total Customers: 45K,
-Total Conversions: 5K,
+Total Customers: 45K
+
+Total Conversions: 5K
+
 Conversion Rate: 11.70%
 
 ### Visualizations
 
-Customers vs Conversions Comparison,
-Conversions by Job,
-Conversions by Month,
-Conversions by Contact Method,
-Conversions by Marital Status,
-Campaign Frequency Analysis,
-Education vs Conversion Status,
-Interactive Elements,
-Month Slicer,
-Job Slicer,
-Contact Slicer,
+Customers vs Conversions Comparison.
+
+Conversions by Job.
+
+Conversions by Month.
+
+Conversions by Contact Method.
+
+Conversions by Marital Status.
+
+Campaign Frequency Analysis.
+
+Education vs Conversion Status.
+
+Interactive Elements.
+
+Month Slicer.
+
+Job Slicer.
+
+Contact Slicer.
+
 All visuals update dynamically based on user selection.
 
 # Key Insights
